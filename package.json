@@ -1,0 +1,11 @@
+{
+  "name": "brainburst",
+  "version": "1.0.0",
+  "description": "Quiz game for wdd330 Final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Flores, Mike Lewis, Edgar Cobian, Hector Olivares",
+  "license": "ISC"
+}
