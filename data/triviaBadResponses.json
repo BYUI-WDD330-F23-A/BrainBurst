@@ -1,102 +1,102 @@
 {
    "Topic": {
-      "Best general trivia questions": [
+      "Best_general_trivia_questions": [
          {
-            "Question": "1. In what country did the first Starbucks open outside of North America?",
+            "Question": "In what country did the first Starbucks open outside of North America?",
             "Answer": [
                "Japan",
-               "Japan",
-               "Japan",
+               "Spain",
+               "Germany",
                "Japan"
             ]
          },
          {
-            "Question": "2. What does CODA stand for?",
+            "Question": "What does CODA stand for?",
             "Answer": [
+               "Confirmation of Destructive Action",
+               "Cable Operators and Distributors Association",
                "Child of Deaf Adults",
-               "Child of Deaf Adults",
-               "Child of Deaf Adults",
-               "Child of Deaf Adults"
+               "Commission on Dental Accreditation"
             ]
          },
          {
-            "Question": "3. In a website browser address bar, what does “www” stand for? ",
+            "Question": "In a website browser address bar, what does “www” stand for? ",
             "Answer": [
-               "World Wide Web",
-               "World Wide Web",
-               "World Wide Web",
+               "World Wide Wonder",
+               "World Wide Wet",
+               "World Warm Web",
                "World Wide Web"
             ]
          },
          {
-            "Question": "4. Where were the Declaration of Independence, the Constitution, and the Bill of Rights stored during World War II?",
+            "Question": "Where were the Declaration of Independence, the Constitution, and the Bill of Rights stored during World War II?",
             "Answer": [
+               "Topsfield",
                "Fort Knox",
-               "Fort Knox",
-               "Fort Knox",
-               "Fort Knox"
+               "Trenton",
+               "King’s District"
             ]
          },
          {
-            "Question": "5. What is the tiny piece at the end of a shoelace called?",
+            "Question": "What is the tiny piece at the end of a shoelace called?",
             "Answer": [
-               "An aglet",
-               "An aglet",
-               "An aglet",
-               "An aglet"
+               "Agled",
+               "Aglew",
+               "Aglet",
+               "Agleet"
             ]
          },
          {
-            "Question": "6. Which company's slogan is -You're in good hands?-",
+            "Question": "Which company's slogan is -You're in good hands?-",
             "Answer": [
+               "Allergan",
                "Allstate",
-               "Allstate",
-               "Allstate",
-               "Allstate"
+               "Alliant",
+               "Alliance"
             ]
          },
          {
-            "Question": "7. Who was the first televised President?",
+            "Question": "Who was the first televised President?",
             "Answer": [
                "Franklin D. Roosevelt",
-               "Franklin D. Roosevelt",
-               "Franklin D. Roosevelt",
-               "Franklin D. Roosevelt"
+               "Harry Truman",
+               "Dwight Eisenhower",
+               "John F. Kennedy"
             ]
          },
          {
-            "Question": "8. Pocahontas was baptized and given what English name?",
+            "Question": "Pocahontas was baptized and given what English name?",
             "Answer": [
+               "Rachel",
                "Rebecca",
-               "Rebecca",
-               "Rebecca",
-               "Rebecca"
+               "Ruby",
+               "Reagan"
             ]
          },
          {
-            "Question": "9. Originally, Amazon only sold what kind of product?",
+            "Question": "Originally, Amazon only sold what kind of product?",
             "Answer": [
+               "Music CDs",
+               "Toys",
                "Books",
-               "Books",
-               "Books",
-               "Books"
+               "Tools"
             ]
          },
          {
             "Question": "10. In 2009, what became the first Morse code character to be added since WWII?",
             "Answer": [
+               "The -#- symbol",
                "The -@- symbol",
-               "The -@- symbol",
-               "The -@- symbol",
-               "The -@- symbol"
+               "The -&- symbol",
+               "The -%- symbol"
             ]
          },
          {
-            "Question": "11. Who painted the Mona Lisa?",
+            "Question": "Who painted the Mona Lisa?",
             "Answer": [
-               "Leonardo da Vinci",
-               "Leonardo da Vinci",
-               "Leonardo da Vinci",
+               "Pablo Picasso",
+               "Claude Monet",
+               "Vincent van Gogh",
                "Leonardo da Vinci"
             ]
          },
