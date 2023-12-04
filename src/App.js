@@ -3,12 +3,14 @@ import { footer, header } from "./headerFooter";
 
 // this function creates the flow of all the elements in the html file
 
-function App() {
+export function App() {
   const welcomeMessage = createElement("h2", {
-    textContent: "Welcome to the Quiz",
+    textContent: "Welcome to BrainBurst!"
   });
 
-  const main = createElement("main", {}, [welcomeMessage]);
+  const welcomeParagraph = createElement("p", { textContent: "Test your knowledge and have fun with our quiz. Are you ready?" });
+
+  const main = createElement("main", {}, [welcomeMessage, welcomeParagraph]);
 
   return createElement("div", { className: "container" }, [
     header(main),
