@@ -10,15 +10,22 @@ import { userContainer } from "./userInput";
 
 export function header(mainDiv) {
   const appTitle = createElement("h1", {
-    textContent: "BrainBurst QUIZ",
+    textContent: "BrainBurst",
     className: "app-title",
   });
 
-  //navigation
+  const titlelink = createElement("a", { href: "#" }, [appTitle]);
+
+  titlelink.addEventListener("click", () => { // find a best way to go to main
+    window.location.href = "index.html";
+  });
+
+  // navigation
+
   const introPageBtn = createElement(
     "button",
     { textContent: "Start Quiz" },
-    [],
+    []
   );
   const rulesPageBtn = createElement("button", { textContent: "Rules" }, []);
   const teamPageBtn = createElement("button", { textContent: "Team" }, []);
@@ -44,7 +51,7 @@ export function header(mainDiv) {
     teamPageBtn,
   ]);
 
-  return createElement("header", {}, [appTitle, nav]);
+  return createElement("header", {}, [titlelink, nav]);
 }
 
 export function footer() {
