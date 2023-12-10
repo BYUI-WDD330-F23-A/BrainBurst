@@ -5,7 +5,7 @@ export function RulesPage() {
     createElement("h1", { textContent: "Instructions" }),
     createElement("h2", { textContent: "Objective" }),
     createElement("p", { textContent:
-      "The objective of this game is to answer as many questions correctly as you can."
+      "The objective of this game is to correctly answer as many questions as you can."
     }),
     createElement("h2", { textContent: "Rules" }),
     createElement("ol", {}, [
