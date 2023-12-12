@@ -1,4 +1,4 @@
-import {createElement} from "./utils";
+import {createElement, shuffle} from "./utils";
 
 function options() {
   const option1 = createElement(
@@ -60,20 +60,43 @@ async function getData() {
     res.json()
   );
   console.log(jsonData.Topic);
-  return jsonData.Topic["Best general trivia questions"];
+  return jsonData;
+  // return jsonData.Topic["Best general trivia questions"];
 }
-const data = await getData();
 
-export function quizContainer() {
-  // console.log(data);
-  // console.log(JSON.parse(data));
+
+async function getWrongAnswers() {
+
+}
+
+// Load the Questions
+const quizData = await getData();
+
+export function quizContainer(category = "General Trivia") {
   for (let i = 0; i < 10; i++) {
-    console.log(data[i].Question);
+    console.log(quizData.Topic[category][i].Question);
   }
-  const quizName = createElement("h1", {textContent: "Quiz Name"}, []);
+  // Initialize our game loop
+  // Do some dereferencing to get our list of questions.
+  // TODO call a randomize function to give us a random list.
+  let questionList = shuffle(quizData.Topic[category]);
 
-  const question = createElement("h2", {textContent: data[0].Question}, []);
+  // Set our index to the first question.
+  let currentQuestion = 0;
+  
+  // Set the number answered correctly
+  let numberCorrect = 0;
+ 
+  
+  const quizName = createElement("h1", {textContent: `${category} - ${currentQuestion + 1}/10`}, []);
 
+  const question = createElement("p", 
+    { 
+      className: "quiz-question", 
+      textContent: questionList[0].Question
+    }
+  );
+  
   const btnNext = createElement("button", {textContent: "Next"});
   btnNext.addEventListener("click", () => {
     console.log("NEXT Question"); // When click this should take you to next question.
@@ -93,4 +116,8 @@ export function quizContainer() {
   return answercontainer;
 }
 
-export default quizContainer;
+export {
+  quizContainer as default, 
+  quizData
+};
+

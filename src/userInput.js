@@ -1,9 +1,9 @@
 import { createElement } from "./utils";
-import { quizContainer } from "./quiz";
+import { quizContainer, quizData } from "./quiz";
 
 export function userContainer(mainDiv) {
-  const labelInput = createElement("label", { textContent: "Name:" });
 
+  const labelName = createElement("label", { textContent: "Name: " });
   const nameInput = createElement("input", {
     className: "userName",
     placeholder: "John Doe",
@@ -15,10 +15,34 @@ export function userContainer(mainDiv) {
     mainDiv.appendChild(quizContainer()); // When click this should take you to the page 2 where the quiz is.
   });
 
-  const quizDiv = createElement("div", { className: "user" }, [
-    labelInput,
-    nameInput,
-    btnStart,
+  const labelCategory = createElement("label", { textContent: "Category: " });
+  
+  let categories = Object.keys(quizData.Topic);
+
+  let categoryElements = [];
+
+  categories.forEach( (input) => {
+    categoryElements.push(
+      createElement("option", {value: input, textContent: input})
+    );
+  });
+
+  const categoryPicker = createElement("select", {}, categoryElements)
+
+  const nameDiv = createElement("div", { className: "user" }, [
+    labelName,
+    nameInput
+  ]);
+
+  const categoryDiv = createElement("div", { className: "category" }, [
+    labelCategory,
+    categoryPicker,
+    btnStart
+  ]);
+
+  const quizDiv = createElement("div", { className: "PLACEHOLDER" }, [
+    nameDiv,
+    categoryDiv
   ]);
 
   return quizDiv;

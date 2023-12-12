@@ -8,9 +8,14 @@ export function App() {
     textContent: "Welcome to BrainBurst!"
   });
 
-  const welcomeParagraph = createElement("p", { textContent: "Test your knowledge and have fun with our quiz. Are you ready?" });
 
-  const main = createElement("main", {}, [welcomeMessage, welcomeParagraph]);
+  const welcomeBlock = [
+    welcomeMessage,
+    createElement("p", { textContent: "Test your knowledge and have fun with our quiz." }),
+    createElement("p", { textContent: "Are you ready?" }),
+  ];
+
+  const main = createElement("main", {}, welcomeBlock);
 
   return createElement("div", { className: "container" }, [
     header(main),

@@ -1,5 +1,4 @@
 {
-   "Topic": {
       "Best_general_trivia_questions": [
          {
             "Question": "In what country did the first Starbucks open outside of North America?",
@@ -606,8 +605,7 @@
                "-Umbrella-"
             ]
          }
-      ],
-      "Sports_trivia_questions": [
+
          {
             "Question": "1. Which NFL player spent two years in prison for being one of the chief operators of Bad News Kennels?",
             "Answer": [
@@ -914,8 +912,7 @@
                "Death Valley"
             ]
          }
-      ],
-      "Animal_trivia_questions": [
+
          {
             "Question": "1. What is the loudest animal on Earth?",
             "Answer": [
@@ -1222,8 +1219,7 @@
                "Jellyfish"
             ]
          }
-      ],
-      "Food_and_drink_trivia_questions": [
+
          {
             "Question": "1. How many herbs and spices are in Colonel Sanders’ original KFC recipe?",
             "Answer": [
@@ -1521,8 +1517,7 @@
                "Kale"
             ]
          }
-      ],
-      "Kid-friendly_trivia_questions": [
+
          {
             "Question": "1. What was the first toy to be advertised on television?",
             "Answer": [
@@ -1820,8 +1815,7 @@
                "Leonardo da Vinci"
             ]
          }
-      ],
-      "Geography_trivia_questions": [
+
          {
             "Question": "1. What is the name of the largest ocean?",
             "Answer": [
@@ -2119,8 +2113,7 @@
                "Arizona"
             ]
          }
-      ],
-      "Science_trivia_questions": [
+
          {
             "Question": "1. Which of the planets in our solar system is the hottest?",
             "Answer": [
@@ -2418,8 +2411,7 @@
                "Buoyancy"
             ]
          }
-      ],
-      "Funny_trivia_questions": [
+
          {
             "Question": "1. The ancient Romans boiled vinegar and what else together to make their version of an energy drink?",
             "Answer": [

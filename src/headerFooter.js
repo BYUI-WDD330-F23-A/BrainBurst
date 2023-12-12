@@ -22,19 +22,16 @@ export function header(mainDiv) {
 
   // navigation
 
-  const introPageBtn = createElement(
-    "button",
-    { textContent: "Start Quiz" },
-    []
-  );
+ 
   const rulesPageBtn = createElement("button", { textContent: "Rules" }, []);
   const teamPageBtn = createElement("button", { textContent: "Team" }, []);
+  const startQuizBtn = createElement("button", { textContent: "Start Quiz" }, []);
 
-  introPageBtn.addEventListener("click", () => {
+  startQuizBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(userContainer(mainDiv)); // go to intro page
   });
-
+  
   rulesPageBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(RulesPage()); // go to rules page
@@ -46,7 +43,7 @@ export function header(mainDiv) {
   });
 
   const nav = createElement("nav", {}, [
-    introPageBtn,
+    startQuizBtn,
     rulesPageBtn,
     teamPageBtn,
   ]);
@@ -56,7 +53,7 @@ export function header(mainDiv) {
 
 export function footer() {
   const copyright = createElement("footer", {
-    textContent: `Copyright © ${new Date().getFullYear()}`,
+    textContent: `Copyright © ${new Date().getFullYear()} Team A`,
   });
   return copyright;
 }
