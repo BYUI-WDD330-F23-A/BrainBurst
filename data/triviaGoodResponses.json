@@ -269,7 +269,7 @@
          },
          {
             "Question": "Actor Tom Holland lip-synced what song on the show Lip Sync Battle?",
-            "Answer": "-Umbrella-"
+            "Answer": "Umbrella"
          }
       ],
       "Sports": [
@@ -1052,7 +1052,7 @@
             "Answer": "Condensation"
          },
          {
-            "Question": "At what temperature is Fahrenheit equal to Centigrade?",
+            "Question": "At what temperature is Fahrenheit numerically equal to Celsius?",
             "Answer": "-40 degrees"
          },
          {

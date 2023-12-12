@@ -2347,7 +2347,7 @@
             ]
          },
          {
-            "Question": "26. At what temperature is Fahrenheit equal to Centigrade?",
+            "Question": "26. At what temperature is Fahrenheit numerically equal to Celsius?",
             "Answer": [
                "-40 degrees",
                "-40 degrees",
