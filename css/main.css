@@ -3,7 +3,7 @@
 
   --color1:          #ffffff;
   --color2:          #bababa;
-  --color3:          #8d8d8d;
+  --color3:          #ffcc25;
   --color4:          #a6cbeb;
   --color5:          #356691;
   --color6:          #3a3a3a;
@@ -28,9 +28,9 @@ h1,h2,h3,h4,h5,h6,label {
 
 body{
   background: var(--primary-color);
-  background: linear-gradient(90deg, rgba(107,107,113,1) 0%, rgba(160,160,173,1) 35%, rgba(255,255,255,1) 100%);
-  width: 95%;
+  background: linear-gradient(90deg, rgb(38, 8, 71) 0%, rgb(43, 1, 37) 35%, rgb(0, 0, 0) 100%);
   height: auto;
+  width: 90%;
   font-family: var(--paragraph-font);
   font-size: 1.5rem;
 }
@@ -43,11 +43,11 @@ body{
 }
 /* Title */
 .app-title{
-  color: #3e4342;
+  color: var(--color3);
   display: flex;
   justify-content: center;
-  text-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+  text-shadow: 3px 3px 12px var(--color3),
+             -3px -3px 12px var(--color3);
 }
 
 a{
@@ -75,8 +75,8 @@ nav button {
   border-radius: 0.5em;
   background: #e8e8e8;
   border: 1px solid var(--primary-color);
-  box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+  box-shadow: 3px 3px 12px var(--color3),
+              -3px -3px 12px var(--color3);
 }
 
 nav button:active {
@@ -144,20 +144,20 @@ main{
   align-items: center;
   margin-top: 0.5em;
   padding: 1em;
-  box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+  box-shadow: 3px 3px 12px var(--color3),
+              -3px -3px 12px var(--color3);
 }
 
 /* Footer */
 footer{
   display: flex;
+  margin-top: 1.5em;
   border: 2px solid var(--primary-color);
   background: #e8e8e8;
   width: 100%;
   height: auto;
   border-radius: 10px;
   justify-content: center;
-  margin-top: 0.5em;
   box-shadow: 6px 6px 12px #c5c5c5,
              -6px -6px 12px #ffffff;
   padding: 1em;
@@ -191,10 +191,22 @@ footer{
 }
 
 .quiz-question {
-  font-family: var(--heading-font);
-  text-align: center;
+  font-family: var(--paragraph-font);
+  text-align: left;
 }
 
 label {
   font-size: 0.8em;
+}
+
+.answer-label {
+  display: block;
+}
+
+.next-button {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: var(--heading-font);
+  display: block;
+  margin: 0.5em auto;
 }

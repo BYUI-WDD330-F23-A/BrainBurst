@@ -1,84 +1,64 @@
 import {createElement, shuffle} from "./utils";
 
-function options() {
-  const option1 = createElement(
-    "input",
-    {name: "answer", id: "option1", type: "radio", value: "option 1"},
-    []
-  );
-  const option2 = createElement(
-    "input",
-    {name: "answer", id: "option2", type: "radio", value: "option 2"},
-    []
-  );
-  const option3 = createElement(
-    "input",
-    {name: "answer", id: "option3", type: "radio", value: "option 3"},
-    []
-  );
-  const option4 = createElement(
-    "input",
-    {name: "answer", id: "option4", type: "radio", value: "option 4"},
-    []
-  );
-  const option5 = createElement(
-    "input",
-    {name: "answer", id: "option5", type: "radio", value: "option 5"},
-    []
-  );
+function options(correctAnswer = 'Correct', badAnswers = ['Bad 1', 'Bad 2', 'Bad 3', 'Bad 4', 'Bad 5']) {
+  let optionList = [];
+  let goodIndex = Math.floor(Math.random() * 4);
+  for (let i = 0; i < 4; i++) {
+    let theAnswer = i == goodIndex ? correctAnswer : badAnswers[i];
+    let inputElement = createElement(
+      "input",
+      {
+        name: "answer",
+        id: `option${i}`,
+        type: "radio",
+        value: theAnswer
+      },
+      []
+    );
+    optionList.push(
+      createElement(
+        "label",
+        {
+          for: `option${i}`,
+          className: "answer-label",
+          textContent: theAnswer
+        },
+        [inputElement]
+      )
+    )
+  }
 
-  const label1 = createElement(
-    "label",
-    {for: "option1", textContent: "Option 1"},
-    [option1]
-  );
-  const label2 = createElement(
-    "label",
-    {for: "option2", textContent: "Option 2"},
-    [option2]
-  );
-  const label3 = createElement(
-    "label",
-    {for: "option3", textContent: "Option 3"},
-    [option3]
-  );
-  const label4 = createElement(
-    "label",
-    {for: "option4", textContent: "Option 4"},
-    [option4]
-  );
-  const label5 = createElement(
-    "label",
-    {for: "option5", textContent: "Option 5"},
-    [option5]
-  );
+  goodIndex = Math.floor(Math.random() * 4);
 
-  return createElement("form", {}, [label1, label2, label3, label4, label5]);
+  const answerPack = createElement("form", {}, optionList);
+
+  return answerPack;
 }
 async function getData() {
   const jsonData = await fetch("../data/triviaGoodResponses.json").then((res) =>
     res.json()
   );
-  console.log(jsonData.Topic);
   return jsonData;
   // return jsonData.Topic["Best general trivia questions"];
 }
 
 
 async function getWrongAnswers() {
-
+  const jsonData = await fetch("../data/mikesBadAnswers.json").then((res) =>
+    res.json()
+  );
+  return jsonData;
 }
 
 // Load the Questions
 const quizData = await getData();
+const badAnswers = await getWrongAnswers();
 
 export function quizContainer(category = "General Trivia") {
-  for (let i = 0; i < 10; i++) {
-    console.log(quizData.Topic[category][i].Question);
-  }
   // Initialize our game loop
   // Do some dereferencing to get our list of questions.
-  // TODO call a randomize function to give us a random list.
+  
+  debugger;
   let questionList = shuffle(quizData.Topic[category]);
 
   // Set our index to the first question.
@@ -93,26 +73,22 @@ export function quizContainer(category = "General Trivia") {
   const question = createElement("p", 
     { 
       className: "quiz-question", 
-      textContent: questionList[0].Question
+      textContent: questionList[currentQuestion].Question
     }
   );
   
-  const btnNext = createElement("button", {textContent: "Next"});
+  const btnNext = createElement("button", {className: "next-button", textContent: "Next"});
   btnNext.addEventListener("click", () => {
     console.log("NEXT Question"); // When click this should take you to next question.
   });
 
-  const questionCounter = createElement("span", {textContent: `1/10`}); // this should count the question number
-
   const answercontainer = createElement("div", {}, [
     quizName,
     question,
-    options(),
-    questionCounter,
+    options(questionList[currentQuestion].Answer,shuffle(badAnswers)),
     btnNext,
   ]);
-  console.log(answercontainer);
-
+  
   return answercontainer;
 }
 

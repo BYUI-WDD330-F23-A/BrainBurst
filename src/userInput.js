@@ -10,10 +10,7 @@ export function userContainer(mainDiv) {
   });
 
   const btnStart = createElement("button", { textContent: "Start" });
-  btnStart.addEventListener("click", () => {
-    mainDiv.innerHTML = "";
-    mainDiv.appendChild(quizContainer()); // When click this should take you to the page 2 where the quiz is.
-  });
+
 
   const labelCategory = createElement("label", { textContent: "Category: " });
   
@@ -27,7 +24,7 @@ export function userContainer(mainDiv) {
     );
   });
 
-  const categoryPicker = createElement("select", {}, categoryElements)
+  const categoryPicker = createElement("select", {id: "pickedCategory"}, categoryElements)
 
   const nameDiv = createElement("div", { className: "user" }, [
     labelName,
@@ -44,6 +41,16 @@ export function userContainer(mainDiv) {
     nameDiv,
     categoryDiv
   ]);
+
+  btnStart.addEventListener("click", () => {
+    mainDiv.innerHTML = "";
+    let theCategory = document.getElementById("pickedCategory").value;
+    mainDiv.appendChild(
+      quizContainer(
+        theCategory
+      )
+    ); // When click this should take you to the page 2 where the quiz is.
+  });
 
   return quizDiv;
 }
