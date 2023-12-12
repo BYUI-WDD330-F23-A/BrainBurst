@@ -2,6 +2,7 @@ import { createElement } from "./utils";
 import { RulesPage } from "./Rules";
 import { teamPage } from "./team";
 import { userContainer } from "./userInput";
+import {quizContainer} from "./quiz";
 
 /* function page(title) {
   const titleHeading = createElement("h2", { textContent: title });
@@ -29,6 +30,7 @@ export function header(mainDiv) {
   );
   const rulesPageBtn = createElement("button", { textContent: "Rules" }, []);
   const teamPageBtn = createElement("button", { textContent: "Team" }, []);
+  const restartGameBtn = createElement("button", { textContent: "Restart quiz" }, []);
 
   introPageBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
@@ -45,10 +47,16 @@ export function header(mainDiv) {
     mainDiv.appendChild(teamPage()); // go to team page
   });
 
+  restartGameBtn.addEventListener("click", () => {
+    mainDiv.innerHTML = "";
+    mainDiv.appendChild(quizContainer()); // go to rules page
+  });
+
   const nav = createElement("nav", {}, [
     introPageBtn,
     rulesPageBtn,
     teamPageBtn,
+    restartGameBtn
   ]);
 
   return createElement("header", {}, [titlelink, nav]);
