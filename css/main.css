@@ -1,13 +1,37 @@
 :root {
   --primary-color: rgb(107,107,113);
+
+  --color1:          #ffffff;
+  --color2:          #bababa;
+  --color3:          #ffcc25;
+  --color4:          #a6cbeb;
+  --color5:          #356691;
+  --color6:          #3a3a3a;
+
+  --header-background: var(--color1);
+  --content-border: var(--color4);
+  --header-foreground: var(--color3);
+
+/* Our favorite fonts go here. */
+
+  --font1: 'Michroma', sans-serif;
+  --font2: 'Lato', sans-serif;
+  
+  --heading-font: var(--font1);
+  --paragraph-font: var(--font2);
+  --code-font: Courier, monospace;
+}
+
+h1,h2,h3,h4,h5,h6,label {
+  font-family: var(--heading-font);
 }
 
 body{
   background: var(--primary-color);
-  background: linear-gradient(90deg, rgba(107,107,113,1) 0%, rgba(160,160,173,1) 35%, rgba(255,255,255,1) 100%);
-  width: 95%;
+  background: linear-gradient(90deg, rgb(38, 8, 71) 0%, rgb(43, 1, 37) 35%, rgb(0, 0, 0) 100%);
   height: auto;
-  font-family: 'Lato', sans-serif;
+  width: 90%;
+  font-family: var(--paragraph-font);
   font-size: 1.5rem;
 }
 
@@ -19,11 +43,10 @@ body{
 }
 /* Title */
 .app-title{
-  color: #3e4342;
+  color: var(--color3);
   display: flex;
   justify-content: center;
-  text-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+  text-shadow: 0px 0px 12px var(--color1);
 }
 
 a{
@@ -51,8 +74,8 @@ nav button {
   border-radius: 0.5em;
   background: #e8e8e8;
   border: 1px solid var(--primary-color);
-  box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+  box-shadow: 3px 3px 12px var(--color3),
+              -3px -3px 12px var(--color3);
 }
 
 nav button:active {
@@ -111,6 +134,7 @@ nav button:hover:after {
 main{
   display: flex;
   flex-direction: column;
+  max-width: 720px;
   border: 2px solid var(--primary-color);
   background: #e8e8e8;
   width: 100%;
@@ -119,23 +143,25 @@ main{
   justify-content:center;
   align-items: center;
   margin-top: 0.5em;
-  padding: 0 1em 1em 1em;
-  box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+  padding: 1em;
+  box-shadow: 3px 3px 12px var(--color3),
+              -3px -3px 12px var(--color3);
 }
 
 /* Footer */
 footer{
   display: flex;
+  margin-top: 1.5em;
+  max-width: 720px;
   border: 2px solid var(--primary-color);
   background: #e8e8e8;
   width: 100%;
   height: auto;
   border-radius: 10px;
   justify-content: center;
-  margin-top: 0.5em;
-  box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+  box-shadow: 3px 3px 12px var(--color3),
+              -3px -3px 12px var(--color3);
+  padding: 1em;
 }
 
 /* div Content Grid */
@@ -163,4 +189,61 @@ footer{
   grid-template-areas: 
   "h1 h1"
   "names users";
+}
+
+.quiz-question {
+  font-family: var(--paragraph-font);
+  text-align: left;
+}
+
+label {
+  font-size: 0.8em;
+}
+
+.answer-wrapper {
+  display: block;
+}
+
+.next-button {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: var(--heading-font);
+  display: block;
+  margin: 0.5em auto;
+}
+
+
+.correct-answer {
+  background-color: lightgreen;
+  color: #004400;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  background-color: lightsalmon;
+  color: #660000;
+  text-decoration: line-through;
+}
+
+.show-block {
+  display: block;
+}
+
+.show-inline {
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+input[type=checkbox] {
+  width: 2em;
+  height: 2em;
+  margin-right: 0.75em;
+  transform: translate(0, 5px);
+}
+
+input[type=checkbox]:disabled:checked {
+  outline: 2px solid green;
 }

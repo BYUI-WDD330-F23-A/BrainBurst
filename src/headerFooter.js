@@ -2,7 +2,7 @@ import { createElement } from "./utils";
 import { RulesPage } from "./Rules";
 import { teamPage } from "./team";
 import { userContainer } from "./userInput";
-import {quizContainer} from "./quiz";
+import { quizContainer } from "./quiz";
 
 /* function page(title) {
   const titleHeading = createElement("h2", { textContent: title });
@@ -23,20 +23,17 @@ export function header(mainDiv) {
 
   // navigation
 
-  const introPageBtn = createElement(
-    "button",
-    { textContent: "Start Quiz" },
-    []
-  );
+ 
   const rulesPageBtn = createElement("button", { textContent: "Rules" }, []);
   const teamPageBtn = createElement("button", { textContent: "Team" }, []);
+  const startQuizBtn = createElement("button", { textContent: "Start Quiz" }, []);
   const restartGameBtn = createElement("button", { textContent: "Restart quiz" }, []);
 
-  introPageBtn.addEventListener("click", () => {
+  startQuizBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(userContainer(mainDiv)); // go to intro page
   });
-
+  
   rulesPageBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(RulesPage()); // go to rules page
@@ -49,13 +46,13 @@ export function header(mainDiv) {
 
   restartGameBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
-    mainDiv.appendChild(quizContainer()); // go to rules page
+    mainDiv.appendChild(quizContainer()); // go to quiz page
   });
 
   const nav = createElement("nav", {}, [
-    introPageBtn,
     rulesPageBtn,
     teamPageBtn,
+    startQuizBtn,
     restartGameBtn
   ]);
 
@@ -63,7 +60,7 @@ export function header(mainDiv) {
 }
 
 export function footer() {
-  const copyright = createElement("span", {
+  const copyright = createElement("footer", {
     textContent: `Copyright © ${new Date().getFullYear()} by WDD-330 Team A`,
   });
   return copyright;
