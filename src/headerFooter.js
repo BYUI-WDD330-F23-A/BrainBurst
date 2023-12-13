@@ -1,13 +1,8 @@
-import { createElement } from "./utils";
+import { createElement, getLocalStorage } from "./utils";
 import { RulesPage } from "./Rules";
 import { teamPage } from "./team";
 import { userContainer } from "./userInput";
 import { quizContainer } from "./quiz";
-
-/* function page(title) {
-  const titleHeading = createElement("h2", { textContent: title });
-  return createElement("div", {}, [titleHeading]);
-} */
 
 export function header(mainDiv) {
   const appTitle = createElement("h1", {
@@ -23,11 +18,10 @@ export function header(mainDiv) {
 
   // navigation
 
- 
   const rulesPageBtn = createElement("button", { textContent: "Rules" }, []);
   const teamPageBtn = createElement("button", { textContent: "Team" }, []);
-  const startQuizBtn = createElement("button", { textContent: "Start Quiz" }, []);
-  const restartGameBtn = createElement("button", { textContent: "Restart quiz" }, []);
+  const startQuizBtn = createElement("button", { textContent: "Start New Quiz" }, []);
+  const restartGameBtn = createElement("button", { textContent: "Restart Quiz" }, []);
 
   startQuizBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
@@ -45,8 +39,9 @@ export function header(mainDiv) {
   });
 
   restartGameBtn.addEventListener("click", () => {
+    let theCategory = getLocalStorage('bb-category');
     mainDiv.innerHTML = "";
-    mainDiv.appendChild(quizContainer()); // go to quiz page
+    mainDiv.appendChild(quizContainer(theCategory, mainDiv)); // go to quiz page
   });
 
   const nav = createElement("nav", {}, [

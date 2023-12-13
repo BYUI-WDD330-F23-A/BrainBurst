@@ -66,7 +66,9 @@ export function userContainer(mainDiv) {
     ); // When click this should take you to the page 2 where the quiz is.
   });
 
-  setLocalStorage('bb-category', "General Trivia");
+  if( !getLocalStorage('bb-category') ) {
+    setLocalStorage('bb-category', "General Trivia");
+  }
   
   return quizDiv;
 }

@@ -6,7 +6,7 @@ export function FinalPage(score) {
   const userName = getLocalStorage('bb-username');
   const finalScoreText = createElement("p", {
     textContent:
-      `${userName}, you got ${score} of 10!`
+      `${userName}, you got ${score} out of 10!`
   });
 
   const ScoreContainer = createElement("div", {}, [scoreHeading, finalScoreText]);

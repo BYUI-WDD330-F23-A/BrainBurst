@@ -1,6 +1,7 @@
 import {createElement, shuffle} from "./utils";
 import { FinalPage } from "./finalScore";
-let userScore = 0;
+
+let userScore;
 
 function showResult() {
   for(let i = 0; i < 4; i++) {
@@ -32,10 +33,10 @@ function options(correctAnswer, badAnswers) {
 
   for (let i = 0; i < 4; i++) {
     // There is slight possibility that the correct answer can be in the bad answer pool
-    // Since the bad answers are currently made up of the correct answers to other questions.
+    // Since the bad answers are currently made up of the correct answers to other questions. 
     if (badAnswers[i] == correctAnswer) {
       console.log("Duplicate answers found. Adjusting the incorrect one.");
-      badAnswers[i] = badAnswers[42];
+      badAnswers[i] = '42';
     }
     let theAnswer = i == goodIndex ? correctAnswer : badAnswers[i];
     let resultFunction = i == goodIndex ? imTrue : imFalse;
@@ -75,6 +76,12 @@ function updateOptions(correctAnswer, badAnswers) {
   let goodIndex = Math.floor(Math.random() * 4);
 
   for (let i = 0; i < 4; i++) {
+    // There is slight possibility that the correct answer can be in the bad answer pool
+    // Since the bad answers are currently made up of the correct answers to other questions. 
+    if (badAnswers[i] == correctAnswer) {
+      console.log("Duplicate answers found. Adjusting the incorrect one.");
+      badAnswers[i] = badAnswers[42];
+    }
     let theAnswer = i == goodIndex ? correctAnswer : badAnswers[i];
     let resultFunction = i == goodIndex ? imTrue : imFalse;
 
@@ -121,6 +128,7 @@ export function quizContainer(category = "General Trivia", parentElement) {
 
   // Set our index to the first question.
   let currentQuestion = 0;
+  userScore = 0;
   
   const quizName = createElement("h1", {textContent: `${category}`}, []);
 
