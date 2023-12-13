@@ -1,11 +1,12 @@
 import { createElement } from "./utils";
+import { getLocalStorage, setLocalStorage, clearLocalStorage } from "./utils";
 
 export function FinalPage(score) {
   const scoreHeading = createElement("h1", { textContent: "Final Score" });
-
+  const userName = getLocalStorage('bb-username');
   const finalScoreText = createElement("p", {
     textContent:
-      `You got ${score} of 10`
+      `${userName}, you got ${score} of 10!`
   });
 
   const ScoreContainer = createElement("div", {}, [scoreHeading, finalScoreText]);

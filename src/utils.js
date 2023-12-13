@@ -39,3 +39,18 @@ export function shuffle(theArray) {
   return theArray;
 
 }
+
+// Wrapper functions for managing localStorage.
+export function getLocalStorage(key) {
+  return localStorage.getItem(key);
+}
+
+export function clearLocalStorage(key){
+  localStorage.setItem(key, '');
+  return true; 
+}
+
+export function setLocalStorage(key, value) {
+  localStorage.setItem(key, value);
+  return true;
+}

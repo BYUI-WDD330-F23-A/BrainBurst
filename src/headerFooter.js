@@ -46,13 +46,13 @@ export function header(mainDiv) {
 
   restartGameBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
-    mainDiv.appendChild(quizContainer()); // go to rules page
+    mainDiv.appendChild(quizContainer()); // go to quiz page
   });
 
   const nav = createElement("nav", {}, [
-    startQuizBtn,
     rulesPageBtn,
     teamPageBtn,
+    startQuizBtn,
     restartGameBtn
   ]);
 
