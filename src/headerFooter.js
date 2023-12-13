@@ -61,7 +61,7 @@ export function header(mainDiv) {
 
 export function footer() {
   const copyright = createElement("footer", {
-    textContent: `Copyright © ${new Date().getFullYear()} Team A`,
+    textContent: `Copyright © ${new Date().getFullYear()} by WDD-330 Team A`,
   });
   return copyright;
 }

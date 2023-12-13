@@ -1,14 +1,29 @@
 import { createElement } from "./utils";
 
 export function RulesPage() {
-  const rulesHeading = createElement("h1", { textContent: "Rules" });
+  let theRules = [
+    createElement("h1", { textContent: "Instructions" }),
+    createElement("h2", { textContent: "Objective" }),
+    createElement("p", { textContent:
+      "The objective of this game is to correctly answer as many questions as you can."
+    }),
+    createElement("h2", { textContent: "Rules" }),
+    createElement("ol", {}, [
+      createElement("li", { textContent: "You will be able to answer each question only one time." } ),
+      createElement("li", { textContent: "Your answer will be flagged as correct or incorrect as soon as you submit the answer." } ),
+      createElement("li", { textContent: "There is no time limit." } ),
+      createElement("li", { textContent: "Try to do as much as you can on your own." } )
+    ]),
+    
+    createElement("h2", { textContent: "Instructions" }),
+    createElement("p", { textContent:
+      "The quiz is multiple choice. Simply read the question and choose from the list of available answers. When you are sure of your choice, click on the answer. You will receive instant feedback if your answer was right or wrong. Click the [Next] button to advance to the next question."
+    }),
+  ];
 
-  const rulesText = createElement("p", {
-    textContent:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Eu augue ut lectus arcu bibendum at. Id aliquet risus feugiat in ante metus dictum at. Consequat ac felis donec et odio pellentesque diam. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Pulvinar etiam non quam lacus suspendisse faucibus. Risus at ultrices mi tempus imperdiet. Amet consectetur adipiscing elit ut aliquam. At augue eget arcu dictum varius duis at. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Faucibus vitae aliquet nec ullamcorper sit amet risus. Auctor eu augue ut lectus arcu bibendum at varius.",
-  });
+  console.log(theRules);
 
-  const rulesContainer = createElement("div", {}, [rulesHeading, rulesText]);
+  const rulesContainer = createElement("div", {}, theRules);
 
   return rulesContainer;
 }
