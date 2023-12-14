@@ -102,7 +102,7 @@ function updateOptions(correctAnswer, badAnswers) {
 
 
 async function getData() {
-  const jsonData = await fetch("../data/triviaGoodResponses.json").then((res) =>
+  const jsonData = await fetch("/data/triviaGoodResponses.json").then((res) =>
     res.json()
   );
   return jsonData;
@@ -111,7 +111,7 @@ async function getData() {
 
 
 async function getWrongAnswers() {
-  const jsonData = await fetch("../data/mikesBadAnswers.json").then((res) =>
+  const jsonData = await fetch("/data/mikesBadAnswers.json").then((res) =>
     res.json()
   );
   return jsonData;
