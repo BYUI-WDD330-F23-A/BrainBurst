@@ -34,8 +34,6 @@ export function RulesPage() {
     }),
   ];
 
-  console.log(theRules);
-
   const rulesContainer = createElement("div", {}, theRules);
 
   return rulesContainer;
