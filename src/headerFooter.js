@@ -12,7 +12,8 @@ export function header(mainDiv) {
 
   const titlelink = createElement("a", { href: "#" }, [appTitle]);
 
-  titlelink.addEventListener("click", () => { // find a best way to go to main
+  titlelink.addEventListener("click", () => {
+    // find a best way to go to main
     window.location.href = "index.html";
   });
 
@@ -20,14 +21,22 @@ export function header(mainDiv) {
 
   const rulesPageBtn = createElement("button", { textContent: "Rules" }, []);
   const teamPageBtn = createElement("button", { textContent: "Team" }, []);
-  const startQuizBtn = createElement("button", { textContent: "Start New Quiz" }, []);
-  const restartGameBtn = createElement("button", { textContent: "Restart Quiz" }, []);
+  const startQuizBtn = createElement(
+    "button",
+    { textContent: "Start New Quiz" },
+    [],
+  );
+  const restartGameBtn = createElement(
+    "button",
+    { textContent: "Restart Quiz" },
+    [],
+  );
 
   startQuizBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(userContainer(mainDiv)); // go to intro page
   });
-  
+
   rulesPageBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(RulesPage()); // go to rules page
@@ -39,7 +48,7 @@ export function header(mainDiv) {
   });
 
   restartGameBtn.addEventListener("click", () => {
-    let theCategory = getLocalStorage('bb-category');
+    let theCategory = getLocalStorage("bb-category");
     mainDiv.innerHTML = "";
     mainDiv.appendChild(quizContainer(theCategory, mainDiv)); // go to quiz page
   });
@@ -48,7 +57,7 @@ export function header(mainDiv) {
     rulesPageBtn,
     teamPageBtn,
     startQuizBtn,
-    restartGameBtn
+    restartGameBtn,
   ]);
 
   return createElement("header", {}, [titlelink, nav]);

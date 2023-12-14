@@ -5,16 +5,18 @@ import { footer, header } from "./headerFooter";
 
 export function App() {
   const welcomeMessage = createElement("h2", {
-    textContent: "Welcome to BrainBurst!"
+    textContent: "Welcome to BrainBurst!",
   });
-
 
   const welcomeBlock = [
     welcomeMessage,
-    createElement("p", { textContent: "Test your knowledge and have fun with our quiz." }),
+    createElement("p", {
+      textContent: "Test your knowledge and have fun with our quiz.",
+    }),
     createElement("p", { textContent: "Are you ready?" }),
-    createElement("p", { innerHTML: "Click the <b>Start New Quiz</b> button at the top." }),
-    
+    createElement("p", {
+      innerHTML: "Click the <b>Start New Quiz</b> button at the top.",
+    }),
   ];
 
   const main = createElement("main", {}, welcomeBlock);
