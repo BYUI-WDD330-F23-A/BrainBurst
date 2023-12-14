@@ -1,0 +1,1222 @@
+{
+  "Topic": {
+    "General Trivia": [
+      {
+        "Question": "In what country did the first Starbucks open outside of North America?",
+        "Answer": "Japan"
+      },
+      {
+        "Question": "What does CODA stand for?",
+        "Answer": "Child of Deaf Adults"
+      },
+      {
+        "Question": "In a website browser address bar, what does “www” stand for? ",
+        "Answer": "World Wide Web"
+      },
+      {
+        "Question": "Where were the Declaration of Independence, the Constitution, and the Bill of Rights stored during World War II?",
+        "Answer": "Fort Knox"
+      },
+      {
+        "Question": "What is the tiny piece at the end of a shoelace called?",
+        "Answer": "Aglet"
+      },
+      {
+        "Question": "Which company's slogan is -You're in good hands?-",
+        "Answer": "Allstate"
+      },
+      {
+        "Question": "Who was the first televised President?",
+        "Answer": "Franklin D. Roosevelt"
+      },
+      {
+        "Question": "Pocahontas was baptized and given what English name?",
+        "Answer": "Rebecca"
+      },
+      {
+        "Question": "Originally, Amazon only sold what kind of product?",
+        "Answer": "Books"
+      },
+      {
+        "Question": "In 2009, what became the first Morse code character to be added since WWII?",
+        "Answer": "The -@- symbol"
+      },
+      {
+        "Question": "Who painted the Mona Lisa?",
+        "Answer": "Leonardo da Vinci"
+      },
+      {
+        "Question": "Who was the first woman to win a Nobel Prize?",
+        "Answer": "Marie Curie (1903)"
+      },
+      {
+        "Question": "Which kind of bulbs were once exchanged as a form of currency?",
+        "Answer": "Tulips"
+      },
+      {
+        "Question": "What was the original purpose of the tiny pocket in jeans?",
+        "Answer": "To store pocket watches."
+      },
+      {
+        "Question": "What does SPF in sunscreen stand for?",
+        "Answer": "Sun Protection Factor"
+      },
+      {
+        "Question": "Chrome, Safari, Firefox and Explorer are different types of what?",
+        "Answer": "Web browsers"
+      },
+      {
+        "Question": "In what year was the internet opened to the public?",
+        "Answer": "1993"
+      },
+      {
+        "Question": "Who is often credited with creating the world's first car?",
+        "Answer": "Karl Benz"
+      },
+      {
+        "Question": "Demolition of the Berlin wall separating East and West Germany began in what year?",
+        "Answer": "1989"
+      },
+      {
+        "Question": "Who was the first woman pilot to fly solo across the Atlantic?",
+        "Answer": "Amelia Earhart"
+      },
+      {
+        "Question": "When did Facebook first launch?",
+        "Answer": "2004"
+      },
+      {
+        "Question": "“Ladies and gentlemen, rock and roll,” were the first words spoken on what cable channel that launched at 12:01 a.m. on August 1, 1981?",
+        "Answer": "MTV"
+      },
+      {
+        "Question": "A 401(k) is a type of tax-advantaged defined-contribution account designed to help you save for what withdrawal from working life?",
+        "Answer": "Retirement"
+      },
+      {
+        "Question": "What is the last name of the business tycoon behind the -No. 5- perfume?",
+        "Answer": "Chanel"
+      },
+      {
+        "Question": "Some of our favorite collective nouns for animals include a congregation of alligators, a business of ferrets, an ostentation of peacocks, and a gaggle of what other fowl?",
+        "Answer": "Geese"
+      },
+      {
+        "Question": "The digital yuan is giving Alipay a run for its money as the largest mobile payment network based in what country?",
+        "Answer": "China"
+      },
+      {
+        "Question": "What food manufacturing company headquartered in Battle Creek, Michigan, uses several animal mascots to sell its cereals, such as Newton the Owl, Tony the Tiger, and a rooster named Cornelius?",
+        "Answer": "The Kellogg Company (Kellogg's)"
+      },
+      {
+        "Question": "In the insurance business, what is the name of a person whose job it is to analyze statistics to calculate risks and price premiums accordingly?",
+        "Answer": "Actuary"
+      },
+      {
+        "Question": "An important ratio that helps home buyers determine how much house they can afford, DTI, stands for what in real-estate parlance?",
+        "Answer": "Debt to Income"
+      },
+      {
+        "Question": "In the Catholic Church, the Bishop of Rome is a title more commonly known as what?",
+        "Answer": "Pope"
+      },
+      {
+        "Question": "Known mainly for spreading a specific type of food, what Massachusetts-born 19th-century man was also fond of spreading religion throughout the country on his journeys?",
+        "Answer": "Johnny Appleseed"
+      },
+      {
+        "Question": "From 1944 to 1945, the Germans increased their troops surrounding the Ardennes Forest for what World War II Battle and major counteroffensive? It gets its name from the rounded swelling of German troops in the region.",
+        "Answer": "Battle of the Bulge"
+      },
+      {
+        "Question": "Michael Joseph Blassie, who died in the Vietnam War, was identified through DNA testing in 1998 and was reinterred after having been buried in what specific location for the previous 26 years?",
+        "Answer": "The Tomb of the Unknown Soldier"
+      }
+    ],
+    "Entertainment": [
+      {
+        "Question": "In which city the famous film Lady Bird took place?",
+        "Answer": "Sacramento (California)"
+      },
+      {
+        "Question": "Who provided the voice of Groot in the Guardians of the Galaxy movies?",
+        "Answer": "Vin Diesel"
+      },
+      {
+        "Question": "Who directed the ultimate Marvel movie Avengers: End Game?",
+        "Answer": "Joe & Anthony Russo"
+      },
+      {
+        "Question": "Which is the highest-grossing R-rated film in North America?",
+        "Answer": "The Passion of the Christ"
+      },
+      {
+        "Question": "In which city is Studio 54 located?",
+        "Answer": "New York"
+      },
+      {
+        "Question": "In the horror film Alien what was the name of the spaceship?",
+        "Answer": "USCSS Nostromo"
+      },
+      {
+        "Question": "This singer is famously called the -Material Girl”?",
+        "Answer": "Madonna"
+      },
+      {
+        "Question": "Who is the famous pop band that was called -Kara's Flowers- up until 2001?",
+        "Answer": "Maroon 5"
+      },
+      {
+        "Question": "What was the coffee shop named in the hit TV show Friends?",
+        "Answer": "Central Perk"
+      },
+      {
+        "Question": "How old was Rose in the Titanic movie when she was recounting her story",
+        "Answer": "100 years old"
+      },
+      {
+        "Question": "What was the first Disney animated feature movie that was not based on an already existing story?",
+        "Answer": "The Lion King"
+      },
+      {
+        "Question": "How many Harry Potter books and movies are there? (Hint: They are not the same number!)",
+        "Answer": "7 books & 8 movies"
+      },
+      {
+        "Question": "What is the longest-running Broadway show?",
+        "Answer": "The Phantom of the Opera"
+      },
+      {
+        "Question": "What is Rihanna's real name?",
+        "Answer": "Robin Fenty"
+      },
+      {
+        "Question": "Mickey Mouse almost went by a different name. What was it?",
+        "Answer": "Mortimer Mouse"
+      },
+      {
+        "Question": "What day is known as Star Wars Day?",
+        "Answer": "May 4th (May the 4th be with you!)"
+      },
+      {
+        "Question": "Directing Schindler's List gave who their first Oscar for Best Picture?",
+        "Answer": "Steven Spielberg"
+      },
+      {
+        "Question": "What magic duo performed at the Mirage casino in Las Vagas from 1990 - 2003?",
+        "Answer": "Siegfried & Roy"
+      },
+      {
+        "Question": "How many Star Wars movies are there (not including spin-offs like Rogue One: A Star Wars Story and Solo)?",
+        "Answer": "9"
+      },
+      {
+        "Question": "Who was Walt Disney's favorite princess?",
+        "Answer": "Cinderella"
+      },
+      {
+        "Question": "Who was the actor to first portray James Bond?",
+        "Answer": "Barry Nelson"
+      },
+      {
+        "Question": "What is the highest-grossing romantic comedy movie?",
+        "Answer": "My Big Fat Greek Wedding"
+      },
+      {
+        "Question": "What was the first cable television series to win an Emmy for Outstanding Drama Series?",
+        "Answer": "The Sopranos"
+      },
+      {
+        "Question": "In which country did the first season of Survivor take place?",
+        "Answer": "Malaysia"
+      },
+      {
+        "Question": "Who won the first season of American Idol?",
+        "Answer": "Kelly Clarkson"
+      },
+      {
+        "Question": "Before he was the frontman for Foo Fighters, Dave Grohl was the drummer for which band?",
+        "Answer": "Nirvana"
+      },
+      {
+        "Question": "Which duo won the first Grammy for Best Rap Performance?",
+        "Answer": "DJ Jazzy Jeff & The Fresh Prince"
+      },
+      {
+        "Question": "What singer holds the most Grammy nominations?",
+        "Answer": "Beyoncé (88 nominations, including the 9 with Destiny's Child)"
+      },
+      {
+        "Question": "Who is the most recent person to achieve EGOT (Emmy, Grammy, Oscar, Tony) status?",
+        "Answer": "Viola Davis"
+      },
+      {
+        "Question": "What animal did Britney Spears famously carry on her shoulders during a performance?",
+        "Answer": "A snake"
+      },
+      {
+        "Question": "How many years have passed between the release of Avatar and its sequel, Avatar: The Way of Water?",
+        "Answer": "13 years"
+      },
+      {
+        "Question": "On The Mandalorian, what is Baby Yoda's real name?",
+        "Answer": "Grogu"
+      },
+      {
+        "Question": "Before Mike Myers was selected to perform Shrek's voice, who was the other Saturday Night Live performer initially cast as Shrek?",
+        "Answer": "Chris Farley"
+      },
+      {
+        "Question": "Actor Tom Holland lip-synced what song on the show Lip Sync Battle?",
+        "Answer": "Umbrella"
+      }
+    ],
+    "Sports": [
+      {
+        "Question": "Which NFL player spent two years in prison for being one of the chief operators of Bad News Kennels?",
+        "Answer": "Michael Vick"
+      },
+      {
+        "Question": "Which country originated the sport of curling?",
+        "Answer": "Scotland"
+      },
+      {
+        "Question": "What is the national sport of Canada?",
+        "Answer": "Lacrosse"
+      },
+      {
+        "Question": "In what year were the first Air Jordan sneakers released?",
+        "Answer": "1984"
+      },
+      {
+        "Question": "What US city hosted the 1994 World Cup final?",
+        "Answer": "Pasadena (California)"
+      },
+      {
+        "Question": "What sporting event is held every Memorial Day?",
+        "Answer": "The Indy 500"
+      },
+      {
+        "Question": "Which athlete has won the most Olympic medals?",
+        "Answer": "Michael Phelps (28 medals)"
+      },
+      {
+        "Question": "What is the national sport of Japan?",
+        "Answer": "Sumo wrestling"
+      },
+      {
+        "Question": "Where is the largest bowling center located?",
+        "Answer": "Japan"
+      },
+      {
+        "Question": "What is the signature food dish served at Wimbledon?",
+        "Answer": "Strawberries and cream"
+      },
+      {
+        "Question": "Which NFL player has scored the most touchdowns?",
+        "Answer": "Tom Brady"
+      },
+      {
+        "Question": "Who is the all-time leading NBA scorer?",
+        "Answer": "LeBron James"
+      },
+      {
+        "Question": "The first sport invented was what?",
+        "Answer": "Wrestling"
+      },
+      {
+        "Question": "How long is a marathon?",
+        "Answer": "26.2 miles"
+      },
+      {
+        "Question": "What is Muhammad Ali's real name?",
+        "Answer": "Cassius Clay"
+      },
+      {
+        "Question": "Which country has the most Olympic medals in swimming?",
+        "Answer": "The USA"
+      },
+      {
+        "Question": "In bowling, three strikes in a row is called?",
+        "Answer": "A turkey"
+      },
+      {
+        "Question": "Bruce Lee was famous in what sport?",
+        "Answer": "Wushu"
+      },
+      {
+        "Question": "How many players are on each side of the net in beach volleyball?",
+        "Answer": "2 players"
+      },
+      {
+        "Question": "Which athlete won the Tour de France every year from 1999 - 2005?",
+        "Answer": "Lance Armstrong"
+      },
+      {
+        "Question": "Who is the youngest golfer ever to win the U.S. Junior Amateur title?",
+        "Answer": "Tiger Woods"
+      },
+      {
+        "Question": "Ping-pong is an alternative name for which sport?",
+        "Answer": "Table tennis"
+      },
+      {
+        "Question": "In which sport can you win the Davis Cup?",
+        "Answer": "Tennis"
+      },
+      {
+        "Question": "How old are the horses that run in the Kentucky Derby?",
+        "Answer": "Three years old"
+      },
+      {
+        "Question": "What was Wilt Chamberlain's record for most points in a single game?",
+        "Answer": "100 points"
+      },
+      {
+        "Question": "Who is the all-time home run leader?",
+        "Answer": "Barry Bonds (762)"
+      },
+      {
+        "Question": "What is the only country to have played in every single soccer World Cup?",
+        "Answer": "Brazil"
+      },
+      {
+        "Question": "What sport were women allowed to play in the Olympics for the first time?",
+        "Answer": "Tennis"
+      },
+      {
+        "Question": "What six-letter word names both a seed company and an exercise that combines a squat, a pushup and a jump in the air?",
+        "Answer": "Burpee"
+      },
+      {
+        "Question": "Celebrated for its ability to improve athletic capacity and glucose metabolism, HIIT is typically a cardiovascular exercise strategy alternating periods of intense exercise with recovery. What does HIIT stand for?",
+        "Answer": "High-Intensity Interval Training"
+      },
+      {
+        "Question": "Greg Lemond, who won the Tour de France three times in the late 1980s, was the first cyclist to appear on the cover of which American sports magazine?  ",
+        "Answer": "Sports Illustrated"
+      },
+      {
+        "Question": "It can be played indoors or outdoors. It's notable for attracting a wide range of ages and fitness levels. It combines elements of tennis, badminton and ping-pong. Its highest governing body is the IFP. What sport is it?",
+        "Answer": "Pickleball"
+      },
+      {
+        "Question": "Since he pitched 749 games in his 22-year career (including a perfect game in 1904), which MLB player has an award for great pitchers named after him?",
+        "Answer": "Cy Young"
+      },
+      {
+        "Question": "Mount Whitney is the finish line for the ultramarathon race that starts 135 miles earlier at Badwater, the scorching basin of what national park?",
+        "Answer": "Death Valley"
+      }
+    ],
+    "Animals": [
+      {
+        "Question": "What is the loudest animal on Earth?",
+        "Answer": "The sperm whale"
+      },
+      {
+        "Question": "What is the tallest breed of dog?",
+        "Answer": "Great Dane"
+      },
+      {
+        "Question": "How many hearts does an octopus have?",
+        "Answer": "Three"
+      },
+      {
+        "Question": "What are the only two mammals that lay eggs?",
+        "Answer": "Echidna and platypus"
+      },
+      {
+        "Question": "What color is a giraffe's tongue?",
+        "Answer": "Black"
+      },
+      {
+        "Question": "How many bones do sharks have?",
+        "Answer": "Zero!"
+      },
+      {
+        "Question": "What is the fear of spiders called?",
+        "Answer": "Arachnophobia"
+      },
+      {
+        "Question": "What is the largest animal on the planet?",
+        "Answer": "Antarctic Blue Whale"
+      },
+      {
+        "Question": "Which animal is the fastest on land?",
+        "Answer": "Cheetah"
+      },
+      {
+        "Question": "While often confused with llamas, what breed of camelid is used for fleece production, while its cousin the llama is not?",
+        "Answer": "Alpaca"
+      },
+      {
+        "Question": "What creature with an equine name has no teeth or stomach, mates for life, and is the only species on Earth where the male carries the unborn offspring?",
+        "Answer": "Seahorse"
+      },
+      {
+        "Question": "What is the name of the second tallest (standing) bird on the planet? This animal is found only in Australia and is related to the ostrich.",
+        "Answer": "Emu"
+      },
+      {
+        "Question": "The largest living lizard can't breathe fire, but it does have a venomous bite that inhibits blood clotting. What creature is this?",
+        "Answer": "Komodo dragon"
+      },
+      {
+        "Question": "The Sumatran species of what famously horned mammal officially went extinct in Malaysia in November 2019? The animal is not yet extinct globally as a few dozen live in Indonesia.",
+        "Answer": "Rhino"
+      },
+      {
+        "Question": "What does the bat use to navigate and locate its prey?",
+        "Answer": "Echolocation"
+      },
+      {
+        "Question": "What is the fastest fish in the ocean that can reach up to 68 MPH?",
+        "Answer": "Sailfish"
+      },
+      {
+        "Question": "What is the color of the most poisonous frog in the world?",
+        "Answer": "Yellow"
+      },
+      {
+        "Question": "What are male honeybees called?",
+        "Answer": "Drones"
+      },
+      {
+        "Question": "How many compartments do cows have in their stomach?",
+        "Answer": "Four"
+      },
+      {
+        "Question": "What are the only birds that can fly backward?",
+        "Answer": "Hummingbirds"
+      },
+      {
+        "Question": "What do you call animals that eat everything (meat, plants and fish)?",
+        "Answer": "Omnivores"
+      },
+      {
+        "Question": "What shark is thought to be the largest to have ever lived on Earth?",
+        "Answer": "Megalodon"
+      },
+      {
+        "Question": "Besides elephants and rhinoceroses, what other animals are considered pachyderms?",
+        "Answer": "Hippopotamuses"
+      },
+      {
+        "Question": "What is the largest land predator?",
+        "Answer": "Polar bear"
+      },
+      {
+        "Question": "What fish is known as a poor man's lobster?",
+        "Answer": "Monkfish"
+      },
+      {
+        "Question": "What is a rhinoceros horn made of?",
+        "Answer": "Hair"
+      },
+      {
+        "Question": "This is the only snake that builds a nest.",
+        "Answer": "King cobra"
+      },
+      {
+        "Question": "Which bird has the largest wingspan?",
+        "Answer": "Albatross "
+      },
+      {
+        "Question": "What was the first animal placed on the endangered species list?",
+        "Answer": "Peregrine falcon"
+      },
+      {
+        "Question": "What are rhinoceros horns made of?",
+        "Answer": "Hair "
+      },
+      {
+        "Question": "The age of a lion can be determined by its?",
+        "Answer": "Nose"
+      },
+      {
+        "Question": "What bird cannot move their eyeballs?",
+        "Answer": "Owls"
+      },
+      {
+        "Question": "A group of crows is called what?",
+        "Answer": "Murder"
+      },
+      {
+        "Question": "What kind of creature is a Portuguese Man O' War?",
+        "Answer": "Jellyfish"
+      }
+    ],
+    "Food and Drink": [
+      {
+        "Question": "How many herbs and spices are in Colonel Sanders' original KFC recipe?",
+        "Answer": "11 "
+      },
+      {
+        "Question": "Which fast food restaurant still boards the slogan “Have it your way-?",
+        "Answer": "Burger King"
+      },
+      {
+        "Question": "What is the oldest soft drink in America?",
+        "Answer": "Dr. Pepper"
+      },
+      {
+        "Question": "Which fruit is used to flavor the liqueur, Southern Comfort?",
+        "Answer": "Peach"
+      },
+      {
+        "Question": "Which U.S. state is the only state to grow coffee beans?",
+        "Answer": "Hawaii"
+      },
+      {
+        "Question": "In 1929 what ingredient was removed from Coca-Cola?",
+        "Answer": "Cocaine"
+      },
+      {
+        "Question": "What is the world's most expensive spice?",
+        "Answer": "Saffron"
+      },
+      {
+        "Question": "This is used to measure the spicy heat of peppers.",
+        "Answer": "The Scoville scale"
+      },
+      {
+        "Question": "Which condiment was used as medicine during the 1830s?",
+        "Answer": "Ketchup"
+      },
+      {
+        "Question": "In 1974, what was the first product scanned by a UPC scanner?",
+        "Answer": "Wrigley's Juicy Fruit gum"
+      },
+      {
+        "Question": "In a pinch, this can be used as a substitute for blood plasma?",
+        "Answer": "Coconut water"
+      },
+      {
+        "Question": "Which food is known to be the most stolen in the world?",
+        "Answer": "Cheese"
+      },
+      {
+        "Question": "Which is the only edible food that never expires?",
+        "Answer": "Honey"
+      },
+      {
+        "Question": "How is white sugar converted into brown sugar?",
+        "Answer": "By adding molasses"
+      },
+      {
+        "Question": "Which state consumes the most turkeys on Thanksgiving Day?",
+        "Answer": "California"
+      },
+      {
+        "Question": "Scurvy is caused by a lack of this vitamin?",
+        "Answer": "Vitamin C"
+      },
+      {
+        "Question": "Which vegetable was the first to be grown in space?",
+        "Answer": "Potato"
+      },
+      {
+        "Question": "The small, edible pieces of a pomegranate are known as what?",
+        "Answer": "Arils"
+      },
+      {
+        "Question": "What is the segment inside an orange called?",
+        "Answer": "Carpel"
+      },
+      {
+        "Question": "What is considered to be the oldest vegetable?",
+        "Answer": "Pea"
+      },
+      {
+        "Question": "Vodka is made from which vegetable?",
+        "Answer": "Potato"
+      },
+      {
+        "Question": "In Middle Eastern cuisine, what is Hummus made from?",
+        "Answer": "Chickpeas"
+      },
+      {
+        "Question": "What is the most popular carbonated beverage?",
+        "Answer": "Coca-Cola"
+      },
+      {
+        "Question": "In which American state was the first McDonald's opened?",
+        "Answer": "California"
+      },
+      {
+        "Question": "What British chocolate company produces creme-filled chocolate eggs known for simulating the texture and appearance of a soft-boiled chicken's egg?",
+        "Answer": "Cadbury"
+      },
+      {
+        "Question": "What is the colloquial term for a rotating tray often placed on a table to aid in distributing food?",
+        "Answer": "Lazy Susan"
+      },
+      {
+        "Question": "Name the Italian dessert that contains ladyfingers, mascarpone, and a secret pick-me-up ingredient.",
+        "Answer": "Tiramisu"
+      },
+      {
+        "Question": "Somewhere between a coffee and a dessert, an ‘affogato' contains espresso poured over what other ingredient?",
+        "Answer": "Gelato"
+      },
+      {
+        "Question": "The -Cutie- brand of produce primarily focuses on what miniature cousin of the orange?",
+        "Answer": "Clementine"
+      },
+      {
+        "Question": "Sometimes called -the green fairy,- what anise-flavored spirit is used as a rinse in a classic New Orleans Sazerac cocktail?",
+        "Answer": "Absinthe"
+      },
+      {
+        "Question": "The orange and blue packaging of what Nestle candy bar proclaims that it is -crispety, crunchety and peanut-buttery-?",
+        "Answer": "Butterfinger"
+      },
+      {
+        "Question": "Coffee was the first food to undergo what process for cold-temperature long-term preservation?",
+        "Answer": "Freeze-dried"
+      },
+      {
+        "Question": "“Peasant's cabbage” was an early term used for what cruciferous plant that spiked in popularity in the 2000s?",
+        "Answer": "Kale"
+      }
+    ],
+    "Kid Trivia": [
+      {
+        "Question": "What was the first toy to be advertised on television?",
+        "Answer": "Mr. Potato Head"
+      },
+      {
+        "Question": "In Cinderella, what are the names of Cinderella's two step-sisters?",
+        "Answer": "Anastasia and Drizella"
+      },
+      {
+        "Question": "In Back to the Future, what type of car is the time machine?",
+        "Answer": "A DeLorean"
+      },
+      {
+        "Question": "Where does the Wizard live in The Wizard of Oz?",
+        "Answer": "The Emerald City"
+      },
+      {
+        "Question": "Which breakfast cereal is advertised with the slogan “Snap, crackle and pop”?",
+        "Answer": "Rice Krispies"
+      },
+      {
+        "Question": "How many colors are in a rainbow?",
+        "Answer": "7 (Red, orange, yellow, green, blue, indigo, violet)"
+      },
+      {
+        "Question": "Who was the first president of the United States of America?",
+        "Answer": "George Washington"
+      },
+      {
+        "Question": "This man is regarded as the one who invented the telephone.",
+        "Answer": "Alexandar Graham Bell"
+      },
+      {
+        "Question": "A person who studies fossils and prehistoric life, such as dinosaurs, is known as what? ",
+        "Answer": "Paleontologist"
+      },
+      {
+        "Question": "What type of fish is Nemo?",
+        "Answer": "Clownfish"
+      },
+      {
+        "Question": "A young boy takes a train to the North Pole on Christmas Eve in what classic 1985 children's book-turned-movie, by Chris Van Allsburg?",
+        "Answer": "The Polar Express"
+      },
+      {
+        "Question": "Where is Big Ben located?",
+        "Answer": "London, England"
+      },
+      {
+        "Question": "Who gifted the Statue of Liberty to the United States?",
+        "Answer": "France"
+      },
+      {
+        "Question": "What are the Olympic medals made from?",
+        "Answer": "Gold, silver & bronze"
+      },
+      {
+        "Question": "How many teeth does an adult human have? ",
+        "Answer": "32"
+      },
+      {
+        "Question": "How many elements are in the periodic table? ",
+        "Answer": "118"
+      },
+      {
+        "Question": "What animal is considered to be the symbol of America? ",
+        "Answer": "Bald eagle"
+      },
+      {
+        "Question": "Which Disney princess is inspired by a real person? ",
+        "Answer": "Pocahontas"
+      },
+      {
+        "Question": "What is the hardest (and longest) bone in your body?",
+        "Answer": "Femur (thigh bone) "
+      },
+      {
+        "Question": "What U.S. state is only two miles away from Russia?",
+        "Answer": "Alaska"
+      },
+      {
+        "Question": "How old has the oldest person lived to be?",
+        "Answer": "122 years old"
+      },
+      {
+        "Question": "What singer produced such a high demand for concert ticket sales that the Ticketmaster website temporarily shut down?",
+        "Answer": "Taylor Swift"
+      },
+      {
+        "Question": "Who is the author of the Harry Potter book series?",
+        "Answer": "J.K. Rowling"
+      },
+      {
+        "Question": "What Olympic gymnast voluntarily dropped out of the 2020 Tokyo Olympics?",
+        "Answer": "Simone Biles"
+      },
+      {
+        "Question": "Where did the Olympic Games originate?",
+        "Answer": "Greece"
+      },
+      {
+        "Question": "Who was the 16th president of the United States?",
+        "Answer": "Abraham Lincoln"
+      },
+      {
+        "Question": "Where is the highest building in the world?",
+        "Answer": "In Dubai (2,722 ft. tall)"
+      },
+      {
+        "Question": "Name the seven dwarves in Snow White.",
+        "Answer": "Sleepy, Sneezy, Happy, Grumpy, Dopey, Doc and Bashful"
+      },
+      {
+        "Question": "Which month only has 28 days?",
+        "Answer": "February"
+      },
+      {
+        "Question": "How many years are there in a millennium? ",
+        "Answer": "1000 years"
+      },
+      {
+        "Question": "What famous ship sank in the year 1912?",
+        "Answer": "Titanic"
+      },
+      {
+        "Question": "The ancient Egyptians are known for the making of what monuments?",
+        "Answer": "Pyramids"
+      },
+      {
+        "Question": "Who painted the Mona Lisa?",
+        "Answer": "Leonardo da Vinci"
+      }
+    ],
+    "Geography": [
+      {
+        "Question": "What is the name of the largest ocean?",
+        "Answer": "The Pacific Ocean"
+      },
+      {
+        "Question": "What is the smallest country in the world?",
+        "Answer": "Vatican City"
+      },
+      {
+        "Question": "What is the majority of the earth covered by?",
+        "Answer": "Oceans"
+      },
+      {
+        "Question": "What is the largest continent?",
+        "Answer": "Asia"
+      },
+      {
+        "Question": "What is the name of the longest mountain range? (Hint: it is under the Atlantic Ocean)",
+        "Answer": "The Mid-Atlantic Ridge"
+      },
+      {
+        "Question": "The destruction of Pompeii in 79 A.D. was done by what volcano?",
+        "Answer": "Mt. Vesuvius"
+      },
+      {
+        "Question": "What is the world's longest river?",
+        "Answer": "Amazon River"
+      },
+      {
+        "Question": "What is the only continent without an active volcano?",
+        "Answer": "Australia"
+      },
+      {
+        "Question": "Which is the world's most earthquake-prone country?",
+        "Answer": "Japan"
+      },
+      {
+        "Question": "Name the three countries that do not use the metric system?",
+        "Answer": "U.S., Myanmar, Liberia"
+      },
+      {
+        "Question": "What is the deepest part in all of the world's oceans called?",
+        "Answer": "The Mariana Trench"
+      },
+      {
+        "Question": "Where is the Golden Gate Bridge located?",
+        "Answer": "San Fransico, California"
+      },
+      {
+        "Question": "This large tower is known for its -tilt.-",
+        "Answer": "Pisa"
+      },
+      {
+        "Question": "What are the Northern Lights also known as?",
+        "Answer": "Aurora Borealis"
+      },
+      {
+        "Question": "Which continent is in all four hemispheres?",
+        "Answer": "Africa"
+      },
+      {
+        "Question": "77% of the world's maple syrup is made in this Canadian province.",
+        "Answer": "Quebec"
+      },
+      {
+        "Question": "Africa is home to how many deserts?",
+        "Answer": "Three"
+      },
+      {
+        "Question": "What is the name of the large river that flows through London?",
+        "Answer": "The Thames River"
+      },
+      {
+        "Question": "Which is colder the North Pole or the South Pole?",
+        "Answer": "South Pole"
+      },
+      {
+        "Question": "What are the imaginary horizontal and vertical lines around the Earth called?",
+        "Answer": "Longitude and latitude lines"
+      },
+      {
+        "Question": "What body of water separates Australia and New Zealand?",
+        "Answer": "The Tasman Sea"
+      },
+      {
+        "Question": "Where are 75% of the world's pineapples grown?",
+        "Answer": "Hawaii"
+      },
+      {
+        "Question": "Which Colorado mountain range contains The Continental Divide?",
+        "Answer": "The Rockies"
+      },
+      {
+        "Question": "Name the largest volcano in the world.",
+        "Answer": "Mouna Loa"
+      },
+      {
+        "Question": "Which Italian city is known for its canals?",
+        "Answer": "Venice"
+      },
+      {
+        "Question": "This country has the largest number of pyramids.",
+        "Answer": "Sudan"
+      },
+      {
+        "Question": "Which country has the most natural lakes?",
+        "Answer": "Canada"
+      },
+      {
+        "Question": "Where is the driest place on Earth?",
+        "Answer": "Antarctica"
+      },
+      {
+        "Question": "Which continent is also an island?",
+        "Answer": "Australia"
+      },
+      {
+        "Question": "The world's largest fish market is located in what capital city?",
+        "Answer": "Tokyo, Japan"
+      },
+      {
+        "Question": "Which major city is located on two continents?",
+        "Answer": "Istanbul, Turkey"
+      },
+      {
+        "Question": "Where would you find -The Valley of the Kings?-",
+        "Answer": "Egypt"
+      },
+      {
+        "Question": "In what state is the Grand Canyon located?",
+        "Answer": "Arizona"
+      }
+    ],
+    "Science": [
+      {
+        "Question": "Which of the planets in our solar system is the hottest?",
+        "Answer": "Venus"
+      },
+      {
+        "Question": "What is the universal donor blood type?",
+        "Answer": "O negative"
+      },
+      {
+        "Question": "How many people have walked on the moon?",
+        "Answer": "12"
+      },
+      {
+        "Question": "Who was the first American in space?",
+        "Answer": "Alan Shephard"
+      },
+      {
+        "Question": "What is the most common eye color in humans?",
+        "Answer": "Brown"
+      },
+      {
+        "Question": "Which galaxy is closest to the Milky Way Galaxy?",
+        "Answer": "Andromeda Galaxy"
+      },
+      {
+        "Question": "What are the three layers of the planet?",
+        "Answer": "Crust, mantle & core"
+      },
+      {
+        "Question": "How many bones are in the human body?",
+        "Answer": "206"
+      },
+      {
+        "Question": "Which part of the brain deals with hearing and language?",
+        "Answer": "Temporal lobe"
+      },
+      {
+        "Question": "Who was the scientist that filed 1,093 patents alone?",
+        "Answer": "Thomas Edison"
+      },
+      {
+        "Question": "End the debate...is a tomato a fruit or a vegetable?",
+        "Answer": "Fruit  "
+      },
+      {
+        "Question": "Which is the only metal to be in liquid form at room temperature?",
+        "Answer": "Mercury"
+      },
+      {
+        "Question": "What is the cause of a tsunami?",
+        "Answer": "Tsunami is caused by the displacement of water due to an earthquake or landslide under the sea or ocean."
+      },
+      {
+        "Question": "What is the oldest living thing on Earth?",
+        "Answer": "Bristlecone Pine"
+      },
+      {
+        "Question": "What is the shape of the human DNA called?",
+        "Answer": "Double helix"
+      },
+      {
+        "Question": "The chemical equation for water?",
+        "Answer": "H2O"
+      },
+      {
+        "Question": "Who invented the airplane?",
+        "Answer": "The Wright Brothers"
+      },
+      {
+        "Question": "What is the largest reef system called?",
+        "Answer": "The Great Barrier Reef"
+      },
+      {
+        "Question": "Which islands west of Ecuador were studied by Charles Darwin to increase his knowledge?",
+        "Answer": "Galapagos Islands"
+      },
+      {
+        "Question": "Igneous rocks are normally associated with what natural phenomenon?",
+        "Answer": "Volcano"
+      },
+      {
+        "Question": "These trees are known as the tallest in the world.",
+        "Answer": "Giant Sequoia"
+      },
+      {
+        "Question": "What is the human body's largest organ?",
+        "Answer": "The skin"
+      },
+      {
+        "Question": "What was the first satellite to enter space called?",
+        "Answer": "Sputnik"
+      },
+      {
+        "Question": "Seismology is the study of what?",
+        "Answer": "Earthquakes"
+      },
+      {
+        "Question": "When a gas changes into a liquid, it is called what?",
+        "Answer": "Condensation"
+      },
+      {
+        "Question": "At what temperature is Fahrenheit numerically equal to Celsius?",
+        "Answer": "-40 degrees"
+      },
+      {
+        "Question": "The movement of pollen from the male anther to a flower's female stigma is known as what?",
+        "Answer": "Pollination"
+      },
+      {
+        "Question": "How long is an eon?",
+        "Answer": "A billion years"
+      },
+      {
+        "Question": "What is the scientific word for push or pull?",
+        "Answer": "Force"
+      },
+      {
+        "Question": "Which person is known for publishing “The Interpretation of Dreams”?",
+        "Answer": "Sigmund Freud"
+      },
+      {
+        "Question": "What is the splitting of atomic nuclei called?",
+        "Answer": "Nuclear fission"
+      },
+      {
+        "Question": "The process of weathered material moving due to gravity is called what?",
+        "Answer": "Erosion"
+      },
+      {
+        "Question": "What is the quality of an object that allows it to float on water?",
+        "Answer": "Buoyancy"
+      }
+    ],
+    "Humor": [
+      {
+        "Question": "The ancient Romans boiled vinegar and what else together to make their version of an energy drink?",
+        "Answer": "Goat poop"
+      },
+      {
+        "Question": "What is the main ingredient in Bombay Duck?",
+        "Answer": "Fish"
+      },
+      {
+        "Question": "Name one of the two countries that do not allow tattoos.",
+        "Answer": "Japan or Iran"
+      },
+      {
+        "Question": "What were the first hockey pucks made out of?",
+        "Answer": "Frozen cow dung"
+      },
+      {
+        "Question": "When held to an ultra-violet ray, which animal's urine glows?",
+        "Answer": "Cat"
+      },
+      {
+        "Question": "What mythical creature is Scotland's national animal?",
+        "Answer": "Unicorn"
+      },
+      {
+        "Question": "Who invented the word -vomit-?",
+        "Answer": "Shakespeare"
+      },
+      {
+        "Question": "Native to the Carribean, what kind of animal is a Mountain Chicken?",
+        "Answer": "Frog"
+      },
+      {
+        "Question": "Why did pirates wear earrings?",
+        "Answer": "They believed it improved eyesight."
+      },
+      {
+        "Question": "What is the longest movie ever made?",
+        "Answer": "The Cure for Insomnia (85 hours)"
+      },
+      {
+        "Question": "What is the hottest pepper in the world?",
+        "Answer": "Carolina Reaper"
+      },
+      {
+        "Question": "Name one of the two countries that allow you to take a nap during work hours?",
+        "Answer": "Italy or Spain"
+      },
+      {
+        "Question": "When do babies get their fingerprints?",
+        "Answer": "21 weeks (fetus)"
+      },
+      {
+        "Question": "What bird has eyes bigger than its brain?",
+        "Answer": "Ostrich"
+      },
+      {
+        "Question": "What reptile cannot stick its tongue out?",
+        "Answer": "Crocodile"
+      },
+      {
+        "Question": "In the U.S., someone does 'this' every 12 seconds at a Holiday Inn. (Keep your mind out of the gutter!)",
+        "Answer": "Steals a towel"
+      },
+      {
+        "Question": "What color is an airplane's black box?",
+        "Answer": "Orange"
+      },
+      {
+        "Question": "What is a pupu platter?",
+        "Answer": "It is a tray of American Chinese or Hawaiian food consisting of an assortment of small meat and seafood appetizers."
+      },
+      {
+        "Question": "It is illegal to wrestle a bear in which country?",
+        "Answer": "South Africa"
+      },
+      {
+        "Question": "You cannot be overweight in what country?",
+        "Answer": "Japan"
+      },
+      {
+        "Question": "What are sweetbreads?",
+        "Answer": "Sweetbreads is a culinary name for the thymus or pancreas, typically from calf and lamb."
+      },
+      {
+        "Question": "You cannot purchase items using too many coins in which country?",
+        "Answer": "Canada"
+      },
+      {
+        "Question": "Which U.S. state has a law preventing your chicken from crossing the road?",
+        "Answer": "Georgia"
+      },
+      {
+        "Question": "You will get picked up by the law for peeing in the ocean in which country?",
+        "Answer": "Portugal"
+      },
+      {
+        "Question": "Which animal can hold its pee for up to eight months?",
+        "Answer": "Wood frog"
+      },
+      {
+        "Question": "This English word has the most -definitions.-",
+        "Answer": "Set"
+      },
+      {
+        "Question": "Napoleon Bonaparte was once attacked by what kind of animals?",
+        "Answer": "Rabbits"
+      },
+      {
+        "Question": "How many times zones are located in France?",
+        "Answer": "12"
+      },
+      {
+        "Question": "What part of the human body can regrow itself in three weeks?",
+        "Answer": "Liver"
+      },
+      {
+        "Question": "What is occasionally used to enhance vanilla flavorings?",
+        "Answer": "Beaver bum goo"
+      },
+      {
+        "Question": "What is the oldest toy in the world?",
+        "Answer": "A stick"
+      },
+      {
+        "Question": "What animal did Edison film with while experimenting with moving images with his Kinetograph invention in 1892?",
+        "Answer": "Cat"
+      },
+      {
+        "Question": "By law every citizen of Kentucky must do what annually?",
+        "Answer": "Take a bath"
+      }
+    ]
+  }
+}

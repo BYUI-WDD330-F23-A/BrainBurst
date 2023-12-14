@@ -16,28 +16,27 @@ export function createElement(type, props = {}, children = []) {
   return element;
 }
 
-
 export function shuffle(theArray) {
   // Takes an array, shuffles the contents randomly, returns a new array.
 
-  let currentIndex = theArray.length
+  let currentIndex = theArray.length;
   let randomIndex;
 
   while (currentIndex > 0) {
-
     // Pick a remaining element at random.
     randomIndex = Math.floor(Math.random() * currentIndex);
     // (currentIndex initially starts out of bounds on 0-indexed arrays)
     currentIndex--;
 
     // Swap it with the current element
-    [theArray[currentIndex], theArray[randomIndex]] =
-    [theArray[randomIndex], theArray[currentIndex]];
+    [theArray[currentIndex], theArray[randomIndex]] = [
+      theArray[randomIndex],
+      theArray[currentIndex],
+    ];
   }
 
   // Return the new array.
   return theArray;
-
 }
 
 // Wrapper functions for managing localStorage.
@@ -45,9 +44,9 @@ export function getLocalStorage(key) {
   return localStorage.getItem(key);
 }
 
-export function clearLocalStorage(key){
-  localStorage.setItem(key, '');
-  return true; 
+export function clearLocalStorage(key) {
+  localStorage.setItem(key, "");
+  return true;
 }
 
 export function setLocalStorage(key, value) {
