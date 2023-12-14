@@ -115,8 +115,8 @@ async function getWrongAnswers() {
 }
 
 // Load the Questions
-const quizData = await getData();
-const badAnswers = await getWrongAnswers();
+const quizData = getData();
+const badAnswers = getWrongAnswers();
 
 export function quizContainer(category = "General Trivia", parentElement) {
   // Do some dereferencing to get our list of questions.
