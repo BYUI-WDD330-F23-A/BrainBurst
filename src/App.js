@@ -3,7 +3,7 @@ import { footer, header } from "./headerFooter";
 
 // this function creates the flow of all the elements in the html file
 
-export function App() {
+export function App () {
   const welcomeMessage = createElement("h2", {
     textContent: "Welcome to BrainBurst!"
   });
@@ -13,8 +13,7 @@ export function App() {
     welcomeMessage,
     createElement("p", { textContent: "Test your knowledge and have fun with our quiz." }),
     createElement("p", { textContent: "Are you ready?" }),
-    createElement("p", { innerHTML: "Click the <b>Start New Quiz</b> button at the top." }),
-    
+    createElement("p", { innerHTML: "Click the <b>Start New Quiz</b> button at the top." })
   ];
 
   const main = createElement("main", {}, welcomeBlock);
@@ -22,7 +21,7 @@ export function App() {
   return createElement("div", { className: "container" }, [
     header(main),
     main,
-    footer(),
+    footer()
   ]);
 }
 

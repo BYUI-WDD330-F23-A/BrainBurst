@@ -4,10 +4,10 @@ import { teamPage } from "./team";
 import { userContainer } from "./userInput";
 import { quizContainer } from "./quiz";
 
-export function header(mainDiv) {
+export function header (mainDiv) {
   const appTitle = createElement("h1", {
     textContent: "BrainBurst",
-    className: "app-title",
+    className: "app-title"
   });
 
   const titlelink = createElement("a", { href: "#" }, [appTitle]);
@@ -27,7 +27,7 @@ export function header(mainDiv) {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(userContainer(mainDiv)); // go to intro page
   });
-  
+
   rulesPageBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
     mainDiv.appendChild(RulesPage()); // go to rules page
@@ -39,7 +39,7 @@ export function header(mainDiv) {
   });
 
   restartGameBtn.addEventListener("click", () => {
-    let theCategory = getLocalStorage('bb-category');
+    const theCategory = getLocalStorage("bb-category");
     mainDiv.innerHTML = "";
     mainDiv.appendChild(quizContainer(theCategory, mainDiv)); // go to quiz page
   });
@@ -54,9 +54,9 @@ export function header(mainDiv) {
   return createElement("header", {}, [titlelink, nav]);
 }
 
-export function footer() {
+export function footer () {
   const copyright = createElement("footer", {
-    textContent: `Copyright © ${new Date().getFullYear()} by WDD-330 Team A`,
+    textContent: `Copyright © ${new Date().getFullYear()} by WDD-330 Team A`
   });
   return copyright;
 }
