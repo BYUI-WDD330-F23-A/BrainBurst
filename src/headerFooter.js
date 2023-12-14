@@ -4,15 +4,16 @@ import { teamPage } from "./team";
 import { userContainer } from "./userInput";
 import { quizContainer } from "./quiz";
 
-export function header (mainDiv) {
+export function header(mainDiv) {
   const appTitle = createElement("h1", {
     textContent: "BrainBurst",
-    className: "app-title"
+    className: "app-title",
   });
 
   const titlelink = createElement("a", { href: "#" }, [appTitle]);
 
-  titlelink.addEventListener("click", () => { // find a best way to go to main
+  titlelink.addEventListener("click", () => {
+    // find a best way to go to main
     window.location.href = "index.html";
   });
 
@@ -20,8 +21,16 @@ export function header (mainDiv) {
 
   const rulesPageBtn = createElement("button", { textContent: "Rules" }, []);
   const teamPageBtn = createElement("button", { textContent: "Team" }, []);
-  const startQuizBtn = createElement("button", { textContent: "Start New Quiz" }, []);
-  const restartGameBtn = createElement("button", { textContent: "Restart Quiz" }, []);
+  const startQuizBtn = createElement(
+    "button",
+    { textContent: "Start New Quiz" },
+    [],
+  );
+  const restartGameBtn = createElement(
+    "button",
+    { textContent: "Restart Quiz" },
+    [],
+  );
 
   startQuizBtn.addEventListener("click", () => {
     mainDiv.innerHTML = "";
@@ -48,15 +57,15 @@ export function header (mainDiv) {
     rulesPageBtn,
     teamPageBtn,
     startQuizBtn,
-    restartGameBtn
+    restartGameBtn,
   ]);
 
   return createElement("header", {}, [titlelink, nav]);
 }
 
-export function footer () {
+export function footer() {
   const copyright = createElement("footer", {
-    textContent: `Copyright © ${new Date().getFullYear()} by WDD-330 Team A`
+    textContent: `Copyright © ${new Date().getFullYear()} by WDD-330 Team A`,
   });
   return copyright;
 }

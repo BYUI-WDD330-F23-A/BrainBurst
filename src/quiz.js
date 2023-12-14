@@ -3,7 +3,7 @@ import { FinalPage } from "./finalScore";
 
 let userScore;
 
-function showResult () {
+function showResult() {
   for (let i = 0; i < 4; i++) {
     document.getElementById(`label${i}`).revealTruth();
     document.getElementById(`option${i}`).disabled = true;
@@ -11,7 +11,7 @@ function showResult () {
   document.getElementById("nextButton").disabled = false;
 }
 
-function imTrue () {
+function imTrue() {
   this.className = this.className + " correct-answer";
   if (document.getElementById(this.htmlFor).checked) {
     userScore++;
@@ -21,11 +21,11 @@ function imTrue () {
   }
 }
 
-function imFalse () {
+function imFalse() {
   this.className = this.className + " incorrect-answer";
 }
 
-function options (correctAnswer, badAnswers) {
+function options(correctAnswer, badAnswers) {
   const optionList = [];
 
   // Pick a position for the correct answer.
@@ -45,7 +45,7 @@ function options (correctAnswer, badAnswers) {
       name: "answer",
       id: `option${i}`,
       type: "checkbox",
-      value: theAnswer
+      value: theAnswer,
     });
 
     inputElement.addEventListener("click", showResult);
@@ -54,11 +54,14 @@ function options (correctAnswer, badAnswers) {
       htmlFor: `option${i}`,
       id: `label${i}`,
       textContent: " " + theAnswer,
-      revealTruth: resultFunction
+      revealTruth: resultFunction,
     });
 
     optionList.push(
-      createElement("div", { className: "answer-wrapper" }, [inputElement, labelElement])
+      createElement("div", { className: "answer-wrapper" }, [
+        inputElement,
+        labelElement,
+      ]),
     );
   }
 
@@ -67,8 +70,7 @@ function options (correctAnswer, badAnswers) {
   return answerGroup;
 }
 
-
-function updateOptions (correctAnswer, badAnswers) {
+function updateOptions(correctAnswer, badAnswers) {
   // Pick a position for the correct answer.
   const goodIndex = Math.floor(Math.random() * 4);
 
@@ -97,19 +99,17 @@ function updateOptions (correctAnswer, badAnswers) {
   document.getElementById("nextButton").disabled = true;
 }
 
-
-async function getData () {
+async function getData() {
   const jsonData = await fetch("../data/triviaGoodResponses.json").then((res) =>
-    res.json()
+    res.json(),
   );
   return jsonData;
   // return jsonData.Topic["Best general trivia questions"];
 }
 
-
-async function getWrongAnswers () {
+async function getWrongAnswers() {
   const jsonData = await fetch("../data/mikesBadAnswers.json").then((res) =>
-    res.json()
+    res.json(),
   );
   return jsonData;
 }
@@ -118,7 +118,7 @@ async function getWrongAnswers () {
 const quizData = await getData();
 const badAnswers = await getWrongAnswers();
 
-export function quizContainer (category = "General Trivia", parentElement) {
+export function quizContainer(category = "General Trivia", parentElement) {
   // Do some dereferencing to get our list of questions.
   const questionList = shuffle(quizData.Topic[category]);
 
@@ -137,24 +137,26 @@ export function quizContainer (category = "General Trivia", parentElement) {
       this.textContent = `Question ${this.currentQ} of 10`;
       return temp;
     },
-    textContent: "Question 1 of 10"
+    textContent: "Question 1 of 10",
   });
 
-  const question = createElement("p",
-    {
-      id: "theQuestion",
-      className: "quiz-question",
-      textContent: questionList[currentQuestion].Question
-    }
-  );
+  const question = createElement("p", {
+    id: "theQuestion",
+    className: "quiz-question",
+    textContent: questionList[currentQuestion].Question,
+  });
 
-  const btnNext = createElement("button",
-    {
-      id: "nextButton", disabled: true, className: "next-button", textContent: "Next"
-    });
+  const btnNext = createElement("button", {
+    id: "nextButton",
+    disabled: true,
+    className: "next-button",
+    textContent: "Next",
+  });
   btnNext.addEventListener("click", () => {
     console.log("NEXT Question"); // When click this should take you to next question.
-    currentQuestion = document.getElementById("questionCounter").advanceQuestion();
+    currentQuestion = document
+      .getElementById("questionCounter")
+      .advanceQuestion();
     if (currentQuestion === 10) {
       parentElement.innerHTML = "";
       parentElement.appendChild(FinalPage(userScore)); // go to final score page
@@ -169,14 +171,10 @@ export function quizContainer (category = "General Trivia", parentElement) {
     questionCounter,
     question,
     options(questionList[currentQuestion].Answer, shuffle(badAnswers)),
-    btnNext
+    btnNext,
   ]);
 
   return answerContainer;
 }
 
-export {
-  quizContainer as default,
-  quizData
-};
-
+export { quizContainer as default, quizData };

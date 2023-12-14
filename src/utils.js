@@ -1,4 +1,4 @@
-export function createElement (type, props = {}, children = []) {
+export function createElement(type, props = {}, children = []) {
   const element = document.createElement(type);
   // props: {properties, attributions}
   Object.entries(props).forEach(([key, value]) => {
@@ -16,8 +16,7 @@ export function createElement (type, props = {}, children = []) {
   return element;
 }
 
-
-export function shuffle (theArray) {
+export function shuffle(theArray) {
   // Takes an array, shuffles the contents randomly, returns a new array.
 
   let currentIndex = theArray.length;
@@ -30,8 +29,10 @@ export function shuffle (theArray) {
     currentIndex--;
 
     // Swap it with the current element
-    [theArray[currentIndex], theArray[randomIndex]] =
-    [theArray[randomIndex], theArray[currentIndex]];
+    [theArray[currentIndex], theArray[randomIndex]] = [
+      theArray[randomIndex],
+      theArray[currentIndex],
+    ];
   }
 
   // Return the new array.
@@ -39,16 +40,16 @@ export function shuffle (theArray) {
 }
 
 // Wrapper functions for managing localStorage.
-export function getLocalStorage (key) {
+export function getLocalStorage(key) {
   return localStorage.getItem(key);
 }
 
-export function clearLocalStorage (key) {
+export function clearLocalStorage(key) {
   localStorage.setItem(key, "");
   return true;
 }
 
-export function setLocalStorage (key, value) {
+export function setLocalStorage(key, value) {
   localStorage.setItem(key, value);
   return true;
 }
